@@ -3967,6 +3967,15 @@
             "CAN"
         ]
     },
+    "NUCLEO_L412KB": {
+        "inherits": [
+            "MCU_STM32L412xB"
+        ],
+        "detect_code": [
+            "0846"
+        ],
+        "device_name": "STM32L412KBUx"
+    },
     "MCU_STM32L432xC": {
         "inherits": [
             "MCU_STM32L4"
